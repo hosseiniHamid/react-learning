@@ -71,7 +71,9 @@ justify-content: center;
 }
 
 .right-side--header{
-    color: #777777;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
 }
 .calendar{
     display: flex;
@@ -106,14 +108,15 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 9px 0 0 0;
+
 }
 
 .calendar__header__month--title{
     display: flex;
-    padding: 0;
     flex-direction: row;
     justify-content: space-around;
-    color: #777777;
+    color: black;
 }
 
 .calendar__days{
@@ -130,7 +133,6 @@ justify-content: center;
 }
 
 calendar__header__month--left-arrow{
-
 }
 
 .calendar__days__day{
