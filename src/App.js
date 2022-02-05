@@ -37,6 +37,7 @@ class App extends React.Component {
                         className="notification__description-box--description">{item.description}</span>
                 </div>
             </div>)
+
     }
 
     render() {
