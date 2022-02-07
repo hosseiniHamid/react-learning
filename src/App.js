@@ -16,9 +16,13 @@ class App extends React.Component {
         const calendar_array = [];
         let flag = true;
         for (let day = 30; day !== 13 || flag; day++) {
-            calendar_array.push(day);
+            calendar_array.push({
+                label: day,
+                event: !!Math.floor(Math.floor(Math.random() * 100) / 80),
+                disable: (day > 28 || !flag)
+            });
             if (day === 31 || day === 28) {
-                flag =! (day === 28);
+                flag = !(day === 28);
                 day = 0;
             }
         }
@@ -74,10 +78,13 @@ class App extends React.Component {
                                 </ul>
                             </div>
                             <ul className="calendar__days">
-                                {this.days().map((day) => (
-                                    <li className="calendar__days__day">{day}</li>
+                                {this.days().map((item) => (
+                                    <li className="calendar__days__day">{item.label}
+                                        {item.flag ? <span className="disabled"></span> : false}
+                                        {item.event ?
+                                            <span className="calendar__days__day--event"/> : item.event = false}
+                                    </li>
                                 ))}
-                                <span className="calendar__days__day--event"/>
                             </ul>
                         </div>
                     </div>
