@@ -73,8 +73,12 @@ class App extends React.Component {
                                 </ul>
                             </div>
                             <ul className="calendar__days">
-                                {this.days().map((day) => (
-                                    <li className="calendar__days__day">{day}</li>
+                                {this.days().map((item) => (
+                                    <li className={`calendar__days__day ${ item.disable ? "disabled" : "" }`}>
+                                        {item.label}
+                                        {item.event ?
+                                            <span className="calendar__days__day--event"/> : item.event = false}
+                                    </li>
                                 ))}
                                 <span className="calendar__days__day--event"/>
                             </ul>
