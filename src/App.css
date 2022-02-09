@@ -1,7 +1,7 @@
-.container{
+.container {
     margin: 200px 20px 0 20px;
     padding: 20px;
-    border:solid 1px black;
+    border: solid 1px black;
     background-color: lightgray;
     border-radius: 6px;
     display: flex;
@@ -10,7 +10,7 @@
     min-height: 400px;
 }
 
-.left-side{
+.left-side {
     padding: 0 30px 0 10px;
     border-right: 1px solid gray;
     width: 60%;
@@ -19,72 +19,72 @@
     justify-content: space-between;
 }
 
-.notification-wrapper{
+.notification-wrapper {
     display: flex;
     flex-direction: column;
 }
-.notification-item{
-    border:1px solid gray;
+
+.notification-item {
+    border: 1px solid gray;
     padding: 10px 8px;
     border-radius: 8px;
     background-color: white;
     margin-bottom: 10px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-.footer--btn{
+
+.footer--btn {
     display: flex;
     width: 93px;
     height: 36px;
     border-radius: 7px;
-    border: 2px solid ;
+    border: 2px solid;
     flex-direction: row;
     align-items: stretch;
     background-color: transparent;
 }
 
 input[value="Clear"] {
-text-align: center;
-display: flex;
-font-size: 17px;
-justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
 }
 
 
-.notification__description-box{
+.notification__description-box {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
     justify-content: space-between;
     min-height: 45px;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
-    align-content: flex-start ;
+    align-content: flex-start;
     justify-content: space-between;
 }
 
-.right-side{
+.right-side {
     background-color: lightgray;
     width: 40%;
 }
 
-.right-side--header{
-    color: #777777;
+.right-side--header {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 19px;
+    color: black;
 }
-.calendar{
+
+.calendar {
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 6px;
-    /*padding: 100px 10px 125px 50px;*/
-    justify-content: space-between;
-    border: 1px solid gray;
-    flex-wrap:wrap;
-}
-
-.calendar--header__week-day{
     margin-left: 19px;
     justify-content: space-around;
     align-content: space-around;
@@ -101,52 +101,51 @@ justify-content: center;
     background-color: white;
 }
 
-.calendar__header__week-day--day{
+.calendar__header__week-day--day {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
     font-size: 12px;
     justify-content: space-between;
 }
 
-.calendar__header__month{
+.calendar__header__month {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 9px 0 0 0;
+
 }
 
-.calendar__header__month--title{
+.calendar__header__month--title {
     display: flex;
-    padding: 0;
     flex-direction: row;
     justify-content: space-around;
-    color: #777777;
+    color: black;
 }
 
-.calendar__days{
+.calendar__days {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     padding: 0;
     list-style-type: none;
 }
 
-.calendar__header__month--right-arrow{
+.calendar__header__month--right-arrow {
 
 }
 
-calendar__header__month--left-arrow{
-
+calendar__header__month--left-arrow {
 }
 
-.calendar__days__day{
+.calendar__days__day {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     width: 14%;
-    height: 35px;
     align-items: center;
 
 }
@@ -156,10 +155,11 @@ calendar__header__month--left-arrow{
     border-radius: 45px;
     width: 3px;
     height: 3px;
-    margin-top: 3px;
- }
+    margin-top: 4px;
+}
 
 .disabled {
     pointer-events: none;
     opacity: 0.6;
     list-style-type: none;
+}
