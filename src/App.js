@@ -1,4 +1,5 @@
 import FirstProject from "./firstProject";
+import SecondProject from "./secondProject";
 import { BrowserRouter, Route ,Link ,Routes} from "react-router-dom";
 
 
@@ -9,6 +10,7 @@ function App() {
                 <Routes>
                     <Route path="/" exact={false} element={<Home/>}/>
                     <Route path="/first-project" element={<FirstProject/>}/>
+                    <Route path="/second-Project" element={<SecondProject/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
@@ -21,7 +23,8 @@ function Home() {
     return (
         <div>
             <h1>This is the home page</h1>
-            <Link to="/first-project">Click to view My first project</Link>
+            <Link to="/first-project">Click to view My first project</Link><br/>
+            <Link to="/second-Project">Click to view My second project</Link>
         </div>
     );
 }

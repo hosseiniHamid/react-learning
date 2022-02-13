@@ -1,0 +1,128 @@
+.background {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background__menu--items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.background__menu__items--item {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    border-top: 1px solid lightgray;
+    font-family: sans-serif;
+}
+
+.background__menu__items__item--disabled {
+    min-width: 190px;
+    background-color: #e95420;
+}
+
+.background__menu__items__item--style {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 6px 0;
+    padding: 10px 16px;
+}
+
+.background__menu__items__item--styleIcon {
+    margin-right: 10px
+}
+
+.background__menu__items--item:first-child {
+    border-top: none;
+}
+
+.background--left--menu {
+    padding: 0;
+    border-right: 1px solid lightgray;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.background--center {
+    display: flex;
+    flex-direction: column;
+}
+
+.background__center--headerImg {
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+}
+
+.background--center__headerImg--headImage {
+    min-width: 30%;
+    position: relative;
+    margin: 0;
+    height: 280px;
+}
+
+.background__center--sectionLine {
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
+
+.background__center--images {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+
+.background__center__images--img {
+    flex-basis: calc(25% - 15px);
+    max-width: 25%;
+    margin-bottom: 20px;
+    max-height: fit-content;
+    position: relative;
+}
+
+.background--center__headerImg__headImage--icons {
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.background--center__headerImg__headImage--iconsImage {
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+.background__center__images--imgTag{
+    max-width: 100%;
+    height: 100%;
+}
+
+.background__menu__items__item__style--arrow{
+    margin-left: auto;
+}
