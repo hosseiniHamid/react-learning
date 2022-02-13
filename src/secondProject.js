@@ -124,7 +124,7 @@ class SecondProject extends React.Component {
                 <div className="background--center">
                     <div className="background__center--headerImg">
                         <div className="background--center__headerImg--headImage">
-                            <img className={`background--center__headerImg--headImage`}
+                            <img className={`background--center__headerImg--image`}
                                  src={this.imageUrls[0]} alt="image"/>
                             <FontAwesomeIcon className="background--center__headerImg__headImage--icons"
                                              icon={Icons.faClock}/>
