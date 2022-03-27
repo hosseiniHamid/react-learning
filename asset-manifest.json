@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/react-learning/static/css/main.c4595eb2.css",
-    "main.js": "/react-learning/static/js/main.b25a8cc9.js",
+    "main.css": "/react-learning/static/css/main.1e458bdb.css",
+    "main.js": "/react-learning/static/js/main.046473ef.js",
     "static/js/787.6a541d2d.chunk.js": "/react-learning/static/js/787.6a541d2d.chunk.js",
     "static/media/img7.jpg": "/react-learning/static/media/img7.186c1bf335ee90143d34.jpg",
+    "static/media/thirdProjectImg.png": "/react-learning/static/media/thirdProjectImg.a4a5856a606206fa632c.png",
     "static/media/img6.png": "/react-learning/static/media/img6.8763072f4aaf7789a3fb.png",
     "static/media/img5.jpg": "/react-learning/static/media/img5.64e8a8bfe5da98535181.jpg",
     "static/media/img4.png": "/react-learning/static/media/img4.355af19e781b1189feba.png",
     "static/media/img3.jpg": "/react-learning/static/media/img3.bf028858ca9ee550ee2d.jpg",
     "static/media/img2.jpg": "/react-learning/static/media/img2.f9c7667d0e53c3937f16.jpg",
     "static/media/img1.png": "/react-learning/static/media/img1.97362f35b27c5b137051.png",
+    "static/media/secondImg.png": "/react-learning/static/media/secondImg.dd976d66c671975dbfc6.png",
+    "static/media/firstImg.JPG": "/react-learning/static/media/firstImg.6ff798f4c600351e551c.JPG",
+    "static/media/footerImg.JPG": "/react-learning/static/media/footerImg.af7fe4c5dbc376c82f60.JPG",
     "index.html": "/react-learning/index.html",
-    "main.c4595eb2.css.map": "/react-learning/static/css/main.c4595eb2.css.map",
-    "main.b25a8cc9.js.map": "/react-learning/static/js/main.b25a8cc9.js.map",
+    "main.1e458bdb.css.map": "/react-learning/static/css/main.1e458bdb.css.map",
+    "main.046473ef.js.map": "/react-learning/static/js/main.046473ef.js.map",
     "787.6a541d2d.chunk.js.map": "/react-learning/static/js/787.6a541d2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4595eb2.css",
-    "static/js/main.b25a8cc9.js"
+    "static/css/main.1e458bdb.css",
+    "static/js/main.046473ef.js"
   ]
 }
