@@ -1,0 +1,189 @@
+.bodyList {
+    background-color: transparent;
+}
+
+.bodyList__discountList--title {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.bodyList__discountList--list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.bodyList__discountList__list--item {
+    text-align: center;
+}
+
+.bodyList__bestSale__list__item--listItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyList__clearerList__list__item--listItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyList__teaList__list__item--listItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyList__discountList__list__item--listItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyList__discountList__list__item__listItems--price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+.bodyList__teaList__list__item__listItems--price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+.bodyList__clearerList__list__item__listItems--price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+.bodyList__clearerList__list__item__listItems--priceAfter {
+    color: red;
+}
+
+.bodyList__bestSale__list__item__listItems--price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+.bodyList__discountList__list__item--btn {
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    max-height: 100px;
+    border: 1px solid red;
+}
+
+.bodyList__bestSale--title {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.bodyList__bestSale--list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.bodyList__bestSale__list__item--btn {
+    border-radius: 18px;
+    background-color: red;
+    color: white;
+    padding: 10px 35px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bodyList__bestSale__list--item {
+    text-align: center;
+}
+
+.bodyList__advertisingImg--listImg {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.bodyList__advertisingImg--listImg__image--img {
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.bodyList__teaList--title {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.bodyList__teaList--list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.bodyList__teaList__list__item--btn {
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    max-height: 100px;
+    border: 1px solid red;
+}
+
+.bodyList__teaList__list--item {
+    text-align: center;
+}
+
+
+.bodyList__clearerList--title {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.bodyList__clearerList--list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.bodyList__clearerList__list__item--btn {
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    max-height: 100px;
+    border: 1px solid red;
+}
+
+.bodyList__clearerList__list--item {
+    text-align: center;
+}
+
+.bodyList__BrandsList--list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.bodyList__BrandsList__list__image--img {
+    width: 125px;
+}

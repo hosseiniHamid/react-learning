@@ -1,0 +1,87 @@
+.footer--{
+    background-color: white;
+}
+.footer--about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footer__about--superKala {
+    margin-right: 25px;
+}
+
+.footer__footerImg--background {
+    background-color: red;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.footer__about--logos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer__about__logos--firstLogo {
+    margin-left: 35px;
+}
+
+.footer__about__logos--secondLogo {
+    margin-left: 25px;
+}
+
+.footer__text--textBody {
+    text-align: right;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+}
+
+.footer__text--textTitle {
+    text-align: right;
+    font-size: 19px;
+    margin-right: 25px;
+}
+
+.footer__about__communicationWays--list {
+    list-style-type: none;
+}
+
+.footer__about__communicationWays__list--items{
+    margin-top: 6px;
+}
+
+.footer__about__communicationWays__list__items--icon{
+    margin-left: 10px;
+}
+
+.text {
+    color: red;
+    display: inline-block;
+}
+
+.footer__about__superKala--list {
+    list-style-type: none;
+}
+
+.footer__about__customers--list {
+    list-style-type: none;
+}
+
+.footer__about__superKala--title {
+    border-bottom: 3px solid cyan;
+    font-weight: bold;
+}
+
+.footer__about__customers--title {
+    border-bottom: 3px solid cyan;
+    font-weight: bold;
+}
+
+.footer__about__communicationWays--title {
+    border-bottom: 3px solid cyan;
+    font-weight: bold;
+
+}

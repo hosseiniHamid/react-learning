@@ -1,0 +1,40 @@
+.homePageApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.App {
+    background-color: #dddddd;
+}
+
+.firstProject {
+    text-align: center;
+    margin-top: 5px;
+    background-color: gray;
+}
+
+.homePage {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: blue;
+}
+
+.secondProject {
+    text-align: center;
+    margin-top: 5px;
+    background-color: lightslategrey;
+}
+
+.thirdProject {
+    text-align: center;
+    margin-top: 5px;
+    background-color: darkgrey;
+}
+
+.thirdProject--img {
+    margin: 5px 0;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,108 @@
+.header {
+    background-color: white;
+}
+
+.header--logo {
+    padding-top: 10px;
+
+}
+
+.header--top {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.header__headerIcons--iconUser {
+    padding-left: 8px;
+    list-style-type: none;
+    color: lightgray;
+}
+
+.header__headerIcons--iconCart {
+    list-style-type: none;
+    color: lightgray;
+}
+
+.header__menuBar--listItems {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header__headerTxt--secondTxt {
+    margin-right: 5px;
+    color: red;
+}
+
+.header__headerTxt--firstTxt {
+    margin-right: 5px;
+    color: aqua;
+}
+
+.header__search--btn {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
+
+.header--headerTxt {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.header--menuBar {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.header__search--input {
+    border: none;
+    border-radius: 38px;
+    padding: 10px 100px 10px 250px;
+    background-color: transparent;
+}
+
+.header__headerTxt--line {
+    margin-right: 7px;
+}
+
+.header__headerTxt--lineL {
+    margin-right: 5px;
+    border-right: 1px solid black;
+}
+
+.header--leftRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__headerIcons--icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header--search {
+    margin-top: 10px;
+    padding-right: 60px;
+    background-color: gray;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.header__search--iconSearch {
+    color: lightgray;
+}
+
+.header__headerTxt--iconShop {
+    margin: 15px 7px 0 7px;
+    color: black;
+}

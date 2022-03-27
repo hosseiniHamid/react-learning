@@ -1,0 +1,165 @@
+.bodyOption {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.bodyOption--image {
+    margin: 18px;
+}
+
+.bodyOption__image--img {
+    width: 100%;
+}
+
+.bodyOption__menu--listItem {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    align-content: end;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 15px;
+    height: 30%;
+}
+
+.bodyOption__menu__listItem--item {
+    text-align: center;
+    margin-top: 55px;
+    padding-left: 50px;
+}
+
+.bodyOption--sideBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyOption--card {
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    background-color: white;
+    margin: 13px;
+    height: 600px;
+    flex: 1;
+}
+
+.bodyOption__card--title {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0px 55px 20px 55px;
+    max-width: 300px;
+}
+
+.bodyOption__card__kalaText--prices {
+}
+
+.bodyOption__card__kalaText--afterPrice {
+    padding: 10px;
+}
+
+.bodyOption__card--takhfif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.bodyOption__card__addBtn--button {
+    border: 1px solid red;
+    border-radius: 35px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+
+}
+
+.bodyOption__card__kalaText--afterPrice {
+    color: red;
+}
+
+.bodyOption__card__takhfif--takhfifDarsad {
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    height: 60px;
+    -moz-border-radius: 75px;
+    font-weight: bold;
+    -webkit-border-radius: 75px;
+    width: 60px;
+}
+
+.bodyOption__card__kalaText--beforePrice {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.bodyOption__card__takhfif--leftArrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid aqua;
+}
+
+.bodyOption__card__takhfif--rightArrow {
+    width: 0;
+    height: 0;
+    margin-bottom: 55px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid aqua;
+}
+
+.bodyOption__card--kalaText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+    margin: 30px 15px 0 15px;
+    font-weight: bold;
+}
+
+.bodyOption__card__kalaText--file {
+    padding: 10px;
+}
+
+.bodyOption__card--image {
+    margin-left: 20%
+}
+
+.bodyOption__menu__listItem--bazgashtImg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+}
+
+.bodyOption__menu__listItem--takhfifImg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+}
+
+.bodyOption__menu__listItem--ersalImg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+}
+
+.bodyOption__menu__listItem--tahvilImg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+}
